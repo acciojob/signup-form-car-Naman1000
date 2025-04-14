@@ -9,32 +9,40 @@
 <body>
 	<form method="post" class="order">
 	<label for="name" >Name</label>
-		<input type="text" required="Yes" id="name" placeholder="Name">
+		<input type="text" required="Yes" id="name" placeholder="Name"><br>
 
 		<label for="email">Email</label>
-		<input type="email" required="Yes" id="email" placeholder="email">
+		<input type="email" required="Yes" id="email" placeholder="email"><br>
 
-		<label for="gender_m,gender_f">Gender</label>
-		<input type="Radio" required="Yes" id="gender_m,gender_f" placeholder="">
+		<label >Gender</label>
+		<label for="gender_m">
+		<input type="Radio" required="Yes" id="gender_m" placeholder="">
+	    Male
+		</label>
+		
+		<label for="gender_f">
+		<input type="Radio" required="Yes" id="gender_f" placeholder="">
+		female
+		</label><br>
 		
 		<label for="cars">Car Brands</label>
-		<input type="Select" required="Yes" id="cars" placeholder="--Please choose an option--">
+		<input type="Select" required="Yes" id="cars" placeholder="--Please choose an option--"><br>
 
 		<label for="age">Age</label>
-		<input type="Number" required="Yes" id="age" placeholder="Age">
+		<input type="Number" required="Yes" id="age" placeholder="Age"><br>
 
 		<label for="dob">DOB</label>
-		<input type="Date" required="Yes" id="dob" placeholder="">
+		<input type="Date" required="Yes" id="dob" placeholder=""><br>
 
 		<label for="tel">Phone Number</label>
-		<input type="tel" required="No" id="tel" placeholder="xxx-xxx-xxx">
+		<input type="tel" required="No" id="tel" placeholder="xxx-xxx-xxx"><br>
 		
 
 		<label for="password">Password</label>
-		<input type="Password" required="Yes" id="password" placeholder="Password">
+		<input type="Password" required="Yes" id="password" placeholder="Password"><br>
 
 		<label for="tos">I agree to the TOS</label>
-		<input type="Checkbox" required="Yes" id="tos" placeholder="">
+		<input type="Checkbox" required="Yes" id="tos" placeholder=""><br>
 
 		<button type="submit">Submit</button>
 
